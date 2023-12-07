@@ -54,7 +54,7 @@ while True:
         #'-tune', 'zerolatency',
         '-threads', '0',
         '-bufsize', CBR,
-        'rtmp://ord02.contribute.live-video.net/app/live_787897155_dM8THKieM4rifuJyj9BSCGQJM83t7i']
+        config['upload_stream'] ]
 
     proc = sp.Popen(command, stdin=sp.PIPE, stderr=sp.STDOUT, bufsize=0)
 
